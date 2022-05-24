@@ -28,7 +28,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToPros = (dispatch) => {
   return {
-    onBtnClick: (id) => dispatch(actionCreator.deleteTodo(id))
+    onBtnClick: (id) => dispatch(actionCreator.deleteToDo(id))
   }
 }
 
